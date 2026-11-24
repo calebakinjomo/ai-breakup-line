@@ -2,6 +2,7 @@
 
 Writes the entry line to $MAKEFUN_OUTPUT_DIR/entry.txt (default
 /output/entry.txt) and prints exactly the same line to stdout.
+The entry line itself is fixed text; this script never alters it.
 """
 
 import os
